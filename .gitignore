@@ -1,0 +1,8 @@
+raw_graphs/*
+banc/*
+fafb/*
+
+*.zip
+code/*
+flywire_wrappers/__pycache__
+outputs/*
