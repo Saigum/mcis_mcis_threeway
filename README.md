@@ -56,3 +56,30 @@ If the goal is biological interpretation after a match has already been found, t
 3. identify recurrent core, source-like hubs, sinks, and intermediates
 4. join available cell-type and class annotations
 5. use enrichment and composition plots to turn graph structure into a biological narrative
+
+#### Post-deadline additions
+From this point onward, the files referenced below were added after the original deadline as follow-up analysis material for the largest weak component.
+
+The main post-deadline folder is:
+1. `largest_component_info/`
+
+The most useful files inside it are:
+1. `largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/largest_weak_component.html`
+   This is the interactive HTML visualization of the matched largest weak component triplet.
+2. `largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/screenshots/`
+   This contains static screenshots of the largest component for `banc`, `fafb`, and `mcns`.
+3. `largest_component_info/largest_component_stats_report.md`
+   This is the summary markdown report built from the dataset-specific stats pages for the largest component.
+4. `largest_component_info/largest_component_stats_report_plots/`
+   This contains the generated summary plots used in that report.
+5. `largest_component_info/largest_component_source_hub_analysis/README.md`
+   This contains the SCC condensation and source/core/sink interpretation for the largest component.
+6. `largest_component_info/largest_component_outdegree_by_cell_type.md`
+   This summarizes average induced outdegree by cell type for the matched largest-component node set.
+7. `largest_component_info/study.md`
+   This contains additional interpretive notes collected during the largest-component follow-up analysis.
+
+So, if the main goal is to inspect the largest matched component directly, the quickest path is:
+1. open the interactive HTML in `largest_component_info/.../largest_weak_component.html`
+2. use the screenshots folder for static graph views
+3. read the source-hub and stats reports for the structural and biological interpretation
