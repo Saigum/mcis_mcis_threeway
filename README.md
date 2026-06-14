@@ -1,5 +1,28 @@
 ## Maximum Common Induced Node Subgraph between multiple large connectomes
 
+######################
+POST-DEADLINE CHANGE
+######################
+
+The material immediately below was added after the original deadline and is meant to make the largest weak component result easier to inspect quickly.
+
+Primary entry points:
+1. Interactive largest-component view: `largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/largest_weak_component.html`
+2. Static screenshots: `largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/screenshots/`
+3. Follow-up biological and structural analysis: `largest_component_info/`
+
+Largest weak component screenshots:
+
+![BANC largest weak component](largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/screenshots/banc.png)
+
+![FAFB largest weak component](largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/screenshots/fafb.png)
+
+![MCNS largest weak component](largest_component_info/largest_weak_component_triplet/banc_626__fafb_783__mcns_0.9/screenshots/mcns.png)
+
+######################
+END POST-DEADLINE CHANGE
+######################
+
 This is a class of problem in graph iterature commonly referred to as MCS. Formally speaking, you're given 2 graphs, and the goal is to find a bijection of subsets of nodes such that, the induced graphs formed by both nodesets, are isomorphic.
 MCS typically acts on two graphs, MMCS is normally whats used to act on 3 graphs.
 
