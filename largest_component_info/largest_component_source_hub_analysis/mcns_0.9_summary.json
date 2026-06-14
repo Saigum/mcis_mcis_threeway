@@ -1,0 +1,16 @@
+{
+  "graph_name": "mcns_0.9",
+  "component_nodes": 1540,
+  "component_edges": 2462,
+  "scc_count": 669,
+  "condensation_nodes": 669,
+  "condensation_edges": 681,
+  "internal_edges_removed": 1758,
+  "parallel_cross_scc_edges_removed": 23,
+  "total_edges_removed": 1781,
+  "dag_sources": 190,
+  "dag_sinks": 417,
+  "dag_longest_path_length": 8,
+  "source_like_hub_sccs": 42,
+  "largest_scc_size": 858
+}

@@ -1,0 +1,14 @@
+{
+  "graph_used_for_component": "banc_626",
+  "graphs": [
+    "banc_626",
+    "mcns_0.9",
+    "fafb_783"
+  ],
+  "largest_weak_component_size": 1540,
+  "pyvis_available": true,
+  "threeway_csv": "outputs/high_degree_bfs_20K/threeway_node_triplets/triplet_banc_626--fafb_783--mcns_0.9__pair_banc_626__mcns_0.9__heldout_fafb_783.n21000.high_degree_bfs_seed1.rank1.left_pattern__in__fafb_783.threeway_nodes.csv",
+  "triplet": "banc_626|fafb_783|mcns_0.9",
+  "visualization_has_live_physics": false,
+  "visualization_is_directed": true
+}

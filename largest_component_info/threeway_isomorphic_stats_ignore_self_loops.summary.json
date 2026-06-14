@@ -1,0 +1,47 @@
+{
+  "edges_no_self_loops": {
+    "max": 2832,
+    "mean": 916.6279069767442,
+    "median": 605,
+    "min": 350
+  },
+  "isolated_nodes_weak": {
+    "max": 862,
+    "mean": 257.13953488372096,
+    "median": 257,
+    "min": 46
+  },
+  "largest_strong_component": {
+    "max": 858,
+    "mean": 192.90697674418604,
+    "median": 46,
+    "min": 15
+  },
+  "largest_weak_component": {
+    "max": 1540,
+    "mean": 526.2325581395348,
+    "median": 355,
+    "min": 216
+  },
+  "non_isomorphic_or_invalid_rows": 0,
+  "rows_analyzed": 43,
+  "strong_components": {
+    "max": 1994,
+    "mean": 721.1627906976744,
+    "median": 676,
+    "min": 326
+  },
+  "threeway_isomorphic_rows_no_self_loops": 43,
+  "threeway_nodes": {
+    "max": 2880,
+    "mean": 938.0930232558139,
+    "median": 807,
+    "min": 391
+  },
+  "weak_components": {
+    "max": 983,
+    "mean": 309.1860465116279,
+    "median": 308,
+    "min": 53
+  }
+}
