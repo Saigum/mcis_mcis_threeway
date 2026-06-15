@@ -22,6 +22,7 @@ Largest weak component screenshots:
 ######################
 END POST-DEADLINE CHANGE
 ######################
+NOTE: IN ISOMORPHICITY BETWEEN INDUCED NODE SUBGRAPHS, I AM IGNORING SELF LOOPS, AS BIOLOGICALLY, SELF-LOOPS DO NOT ACTUAL CONTRIBUTE TO NEURON CONNECTIVITY AND MOTIF STRUCTURE, TO REDUCE THE STRICTNESS OF THE PROBLEM TO FIND LARGE SCALE MOTIFS, I HAVE IGNORED SELF LOOPS, I: AUTAPSES.
 
 This is a class of problem in graph iterature commonly referred to as MCS. Formally speaking, you're given 2 graphs, and the goal is to find a bijection of subsets of nodes such that, the induced graphs formed by both nodesets, are isomorphic.
 MCS typically acts on two graphs, MMCS is normally whats used to act on 3 graphs.
